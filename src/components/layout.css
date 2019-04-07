@@ -79,3 +79,35 @@ p {
     line-height: 24px;
     color: #6e6f80;
 }
+
+.default-background {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.rt2012 {
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d)
+}
+
+.etape {
+    background-color: rgba(255,255,255,0.95);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 8px 9px #c5c2c240;
+    margin-bottom: 20px;
+}
+
+.section-etape {
+    padding-bottom: 200px;
+    height: 100%;
+    background-image: url(../images/pickup.gif) ,url(../images/ground.jpg) , url(../images/maison.png), url(../images/paysage.png);
+    background-color: #fff;
+    background-repeat: no-repeat, repeat-x, repeat-x, repeat-x;
+    background-position: left 30% bottom 24px, left 0px bottom 0px, left 0px bottom 24px, left 0px bottom 0px;
+    -webkit-animation: back 15s infinite linear;
+    animation: back 15s infinite linear;
+    margin-bottom: 150px;
+}
