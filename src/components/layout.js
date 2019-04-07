@@ -11,6 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import "./bootstrap.css"
 import "./layout.css"
+
 import "./Globals/Navbar"
 import Navbar from "./Globals/Navbar";
 const Layout = ({ children }) => (

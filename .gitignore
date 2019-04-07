@@ -1,3 +1,4 @@
+.env.developement
 # Logs
 logs
 *.log
