@@ -1,0 +1,81 @@
+/* DOCUMENT INFORMATION
+	- Document: Optihome Theme
+	- Version:  1.0.0
+	- Author:   Philippe Y.
+*/
+
+
+/* COLORS
+	- default body text  #fff    
+    - button             #f39c12
+    - button:hover       #d8890b
+    - border             #f39c12
+*/
+
+
+/* FONTS
+	- default Lato, sans serif
+  
+*/
+
+
+/* CSS DIRECTORY
+	1. =GLOBAL
+	2. =HEADER
+            = Title
+            = Button
+            = Arrow
+    3. =NOS SERVICES
+*/
+
+
+
+/*  GLOBAL
+	======================================= */ 
+
+  html {
+    background-color: #fff;
+    font-family: 'Roboto', 'Arial', sans-serif;
+
+}
+
+h1 {
+    font-family: 'Lato', 'Arial', sans-serif;
+    color: #2f326a;
+    font-size: 300%;
+    letter-spacing: -1px;
+    font-weight: 300;
+    word-spacing: 2px
+    
+}
+
+h2 {
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 250%;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #2f326a;
+    word-spacing: 5px;
+
+}
+
+
+
+
+h3 {
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 160%;
+    font-weight: 300;
+    color: #2f326a;
+}
+
+
+
+p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #6e6f80;
+}
